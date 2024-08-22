@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(14, 102, 102);
+}
+.bordes{
+    border: 1px solid black;
+}
+.estilo{
+    border: 1px solid rgb(46, 41, 187);
+    background-color: rgb(161, 113, 207);
+}
+.container-header{
+    display: flex;
+    flex-wrap: wrap; /*para que no se desborde y el contenido pase debajo */
+    justify-content: space-between;
+    align-items:center;
+}
+.item1{
+    order: 0;
+
+}
+.item2{
+    order: 1;
+
+}
+.item3{
+    order: 2;
+
+}
+.item4{
+    order: 3;
+
+}

@@ -1,0 +1,15 @@
+*{
+    background-color: blueviolet;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+h1{
+    width: 50%;
+}
+.color{
+    background-color: blue;
+}
+#titulo{
+    background-color: burlywood;
+}

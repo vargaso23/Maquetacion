@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(235, 232, 217);
+}
+.header{
+    border: 3px solid rgb(243, 133, 30);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    }
+.main{
+    border: 1px solid rgb(21, 107, 28);
+    }
+
+.footer{
+    border: 3px solid rgb(5, 87, 107);
+    height: 10vh;
+    }
+.background{
+    background-color: rgb(68, 143, 118);
+    }
+.borde{
+    border: 1px solid rgb(32, 85, 56);
+    }
+.menuprincipal{
+    width: 60%
+    }
+.menuuno{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    list-style: none;
+}
+.form{
+    width: 40%;
+    margin: auto;
+    border: 1px solid rgb(green, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: 10PX;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.Images{
+    width: 60%;
+    margin: auto;
+    border: 1px solid rgb(129, 67, 67);
+}
+.title{
+    max-width: 100%;
+    min-width: 20%;
+}
+.border{
+    border: 2px solid rgb(62, 62, 139);
+    border-top: 2px solid rgb(149, 73, 73);
+    border-right: 3px double rgb(9, 75, 68);
+    border-bottom: 5px dotted rgb(20, 94, 163);
+    border-left: 3px dashed rgb(231, 210, 22);
+}
+.border-p{
+    border: 2px solid rgb(26, 94, 26);
+    border-radius: 5px 50px 20px 80px;
+}
+.shadow{
+    border: 2px green;
+    box-shadow: 15px 15px 20px 2px black,
+    25px 25px 10px 2px rgb(148, 227, 241),
+    35px 35px 10px 2px rgb(99, 91, 13);
+}
+.shadow{
+    text-shadow: 3px 3px 0px rgb(190, 182, 29),
+    5px 3px 0px rgb(33, 94, 96),
+    7px 3px 0px rgb(223, 222, 228);
+}
+body{
+    background-image: url('/img/fondosweb.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.medidas{
+    color: cadetblue;
+    width: 30%;
+    margin: auto;
+    border: 4px solid rgb(162, 24, 112);
+    font-size: 2rem;
+}
+a:hover{
+    font-size: 20px;
+    color: rgb(68, 16, 16);
+    background-color: blue;
+}
+a:visited{
+    color: var(--color_primario);
+    width: var();
+}
